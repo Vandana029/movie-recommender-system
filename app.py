@@ -2,6 +2,7 @@ import streamlit as st
 import pickle 
 import pandas as pd
 import requests
+import gzip
 
 def fetch_poster(movie_title):
     response = requests.get(f'http://www.omdbapi.com/?t={movie_title}&apikey=4e52dfbb')
@@ -31,7 +32,10 @@ def recommend(movie_title):
 
 movies_dict = pickle.load(open('movie_dict.pkl','rb'))
 movies_df = pd.DataFrame(movies_dict)
-similarity = pickle.load(open('similarity.pkl','rb'))
+#similarity = pickle.load(open('similarity.pkl','rb'))
+with gzip.open('similarity.pkl.gz', 'rb') as f:
+    similarity = pickle.load(f)
+
 
 st.title('Movie Recommender System')
 selector_movie_name = st.selectbox(

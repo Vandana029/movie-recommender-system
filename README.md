@@ -101,8 +101,6 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run Streamlit App
 
-**NOTE:** Run movie-recommender-system.ipynb first to generate similarity.pkl
-
 ```bash
 streamlit run app.py
 ```
