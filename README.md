@@ -2,6 +2,14 @@
 
 A **Content-Based Movie Recommendation System** built using **Python, Streamlit, Scikit-learn, and OMDb API**. This app recommends movies similar to the one you like and fetches their posters for a better experience.
 
+🚀 **Live Demo**: [Try it here!][![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://just-movie-recommender-system.streamlit.app/)
+
+## 📌 Features
+- Recommends 5 most similar movies to your selection
+- Fetches posters dynamically from OMDb API
+- Interactive UI with Streamlit
+- Fun elements like balloons, snow, and success messages 🎉
+
 ---
 
 ## 📌 Objective
