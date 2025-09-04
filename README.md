@@ -39,7 +39,7 @@ The main goal of this project is to recommend movies to users based on the **sim
 ├── movie-recommender-system.ipynb             # Jupyter notebook with data preprocessing & similarity generation
 ├── movie_dict.pkl                             # Pickled dictionary of movie metadata
 ├── movies_df.pkl                              # Pickled dataframe (optional, backup)
-├── similarity.pkl                             # Pickled cosine similarity matrix
+├── similarity.pkl.gz                          # Compressed pickled cosine similarity matrix
 ├── requirements.txt                           # Project dependencies
 ├── README.md                                  # Project documentation
 ```
