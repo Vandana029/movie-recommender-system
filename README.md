@@ -4,6 +4,8 @@ A **Content-Based Movie Recommendation System** built using **Python, Streamlit,
 
 🚀 **Live Demo**: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://just-movie-recommender-system.streamlit.app/)
 
+📑 **A Blog Explaining This Project**: [Read Here](https://medium.com/@vandanamaurya0729/how-i-built-a-movie-recommender-system-step-by-step-without-the-jargon-427b43b18083)
+
 ## 📌 Features
 - Recommends 5 most similar movies to your selection
 - Fetches posters dynamically from OMDb API
